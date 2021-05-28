@@ -1,0 +1,37 @@
+.pacientes-container{
+    display: flex;
+    justify-content: center;
+}
+.pacientes{
+    padding-top: 20px;
+    width: 1200px;
+}
+.pacientes-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    .pacientes-header-info{
+        display: flex;
+    }
+    .pacientes-header-icon{
+        font-size: 35px;
+        padding-right: 15px;
+    }
+    .pacientes-header-title{
+        h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+        p{
+            margin: 0;
+        }
+    }
+}
+.botones{
+    display: flex;
+    padding: 40px 0;
+    .button-container{
+        margin-right: 20px;
+    }
+}
