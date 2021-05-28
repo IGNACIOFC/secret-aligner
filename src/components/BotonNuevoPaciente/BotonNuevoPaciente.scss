@@ -46,6 +46,15 @@
             width: 200px;
         }
     }
+    .form-field-checkbox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        input{
+            width: auto;
+        }
+    }
     .form-buttons{
         margin-top: 20px;
     }

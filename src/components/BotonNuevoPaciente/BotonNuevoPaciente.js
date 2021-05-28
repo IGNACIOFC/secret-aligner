@@ -41,6 +41,28 @@ function BotonNuevoPaciente () {
                         <label> Clínica: </label>
                         <input type="text"></input>
                         </div>
+                        <div className="form-field">
+                            <h4>Recorte Alineadores</h4>
+                            <div className="form-field-checkbox">
+                            <label>Recortar dejando 1-3 mm de encía</label>
+                            <input type="checkbox"></input>
+                            </div>
+                            <div className="form-field-checkbox">
+                            <label>Recortar a nivel de los cuellos</label>
+                            <input type="checkbox"></input>
+                            </div>
+                        </div>
+                        <div className="form-field">
+                            <h4>¿Secret Retainer?</h4>
+                            <div className="form-field-checkbox">
+                            <label>Sí</label>
+                            <input type="checkbox"></input>
+                            </div>
+                            <div className="form-field-checkbox">
+                            <label>No</label>
+                            <input type="checkbox"></input>
+                            </div>
+                        </div>
                         <div className="form-buttons">
                             <button className="boton-guardar">Guardar</button>
                             <button onClick={() => setIsOpen(!isOpen)} className="boton-cancelar">Cancelar</button>
